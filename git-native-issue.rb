@@ -21,6 +21,6 @@ class GitNativeIssue < Formula
 
   test do
     system "#{bin}/git-issue", "version"
-    assert_match "1.0.2", shell_output("#{bin}/git-issue version")
+    assert_match "1.2.1", shell_output("#{bin}/git-issue version")
   end
 end
