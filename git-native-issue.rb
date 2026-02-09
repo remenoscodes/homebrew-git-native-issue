@@ -1,10 +1,10 @@
 class GitNativeIssue < Formula
   desc "Distributed issue tracking using Git's native data model"
   homepage "https://github.com/remenoscodes/git-native-issue"
-  url "https://github.com/remenoscodes/git-native-issue/releases/download/v1.2.0/git-native-issue-v1.2.0.tar.gz"
-  sha256 "7392cbd3359b4bbb909e7451b69034a9203f6acbdea8ec505c1bf72feacb3b92"
+  url "https://github.com/remenoscodes/git-native-issue/releases/download/v1.2.1/git-native-issue-v1.2.1.tar.gz"
+  sha256 "7bf0a5b211e41f140f6bebd3fe273563396cf4c8e783b1a647d9c0c63a81705b"
   license "GPL-2.0-only"
-  version "1.2.0"
+  version "1.2.1"
 
   depends_on "git"
 
